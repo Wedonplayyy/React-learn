@@ -95,6 +95,14 @@ code {
 
 .comment p {
   font-size: 16px;
-  padding: 0 8px;
+  padding: 0 0 0 5px;
   margin: 0
+}
+
+.comment-field-button button:active {
+  background: #13c1f1;
+}
+
+.comment .comment-user {
+  flex-shrink: 0;
 }
