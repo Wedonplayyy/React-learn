@@ -16,6 +16,8 @@ function Home() {
       <HelloWorld></HelloWorld>
       <div>This is Home!</div>
       <Link to='/About'>About</Link>
+      <br></br>
+      <Link to='/CommentApp'>CommentApp</Link>
     </div>
   );
 }

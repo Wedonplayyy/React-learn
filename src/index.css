@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  width: 500px;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+
+.comment-input {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.comment-field {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.comment-field-name {
+  flex-basis: 100px;
+  display: flex;
+}
+
+.comment-field-input {
+  display: flex;
+  flex: 1;
+}
+
+.comment-field-input input {
+  font-size: 14px;
+  outline: none;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  resize: none;
+  flex: 1;
+}
+
+.comment-field-input textarea {
+  height: 100px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #e6e6e6;
+  resize: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.comment-field-button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-field-button button {
+  width: 80px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: skyblue;
+  color: white
+}
+
+.comment {
+  min-height: 50px;
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.comment span {
+  font-size: 16px;
+  margin: 0 5px 0 0;
+  color: #00a3cf;
+  font-style: italic;
+}
+
+.comment p {
+  font-size: 16px;
+  padding: 0 8px;
+  margin: 0
+}

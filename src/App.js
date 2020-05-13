@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Home from './Home/Home'
 import About from './About/About'
+import CommentApp from './CommentApp'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/About" component={About} />
+        <Route path="/CommentApp" component={CommentApp} />
       </div>
     </Router>
   );
