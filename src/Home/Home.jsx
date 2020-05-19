@@ -18,7 +18,9 @@ function Home() {
       <Link to='/About'>About</Link>
       <br></br>
       <Link to='/CommentApp'>CommentApp</Link>
-    </div>
+      <br></br>
+      <Link to='/Clock'>Clock</Link>
+    </div >
   );
 }
 export default Home;
